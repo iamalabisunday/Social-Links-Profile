@@ -36,7 +36,7 @@ body {
 
 /* Profile Main Card */
 .profile-card {
-  min-width: 25rem;
+  min-width: 26rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,6 +76,7 @@ body {
 /* Profile Description */
 .profile-description {
   font-size: 1rem;
+  text-align: center;
   font-weight: var(--Weights4);
 }
 
@@ -102,4 +103,10 @@ body {
   color: var(--Grey700);
   cursor: pointer;
   background-color: var(--Green);
+}
+
+@media (max-width: 375px) {
+  .profile-card {
+    min-width: 20rem;
+  }
 }
