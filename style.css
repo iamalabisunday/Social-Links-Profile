@@ -37,6 +37,7 @@ body {
 /* Profile Main Card */
 .profile-card {
   min-width: 26rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -89,9 +90,10 @@ body {
 }
 
 .btn {
-  height: 3rem;
-  border: none;
-  outline: none;
+  width: 100%;
+  padding: 1rem;
+  text-decoration: none;
+  text-align: center;
   color: var(--White);
   border-radius: 0.5rem;
   font-size: var(--fontBody);
@@ -105,7 +107,7 @@ body {
   background-color: var(--Green);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 40em) {
   .profile-card {
     min-width: 20rem;
   }
